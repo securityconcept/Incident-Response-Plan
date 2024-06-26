@@ -1,0 +1,132 @@
+Incident Response Plan-Ransomware
+
+Below is a detailed point by point explanation for the Steps related to handling ransomware incidents, categorized into Preparation, Identification,
+
+Containment, Eradication, Recovery and Lesson learned
+
+Preparation:
+
+1-Regularly update and apply patches to all software and systems to fix security vulnerabilities.
+
+2-Conduct frequent checks on security controls and defensive mechanisms to ensure they are functioning correctly.
+
+3-Verify that backup files are not infected by scanning them with updated antivirus software.
+
+4-Acquire and securely store decryption keys for known rasomware strains.
+
+5-Ensure that our cybersecurity insurance policy covers ransomware incidents and associated costs.
+
+6-Regularly perform simulated ransomware attacks to test and improve our response plans.
+
+7-Simulate phishing attacks to train employees on recognizing and avoiding phishing emails.
+
+8-Provide continuous cybersecurity training to employees to improve their awareness and response to threats.
+
+9-Audit and tighten access permissions on file shares to prevent unauthroized access.
+
+10-Ensure antivirus and endpoint detection and response (EDR) applications are always up to date.
+
+11-Implement network segmentation to limit the spread of ransomware within the network.
+
+12-Monitor and log traffic between different network segments for abnormal activity.
+
+13-Test backup restoration processes regularly to ensure they work as expected.
+
+14-Set up and maintain a cryptocurrency account to pay ransoms if necessary.
+
+====================================================================================================================
+
+Identification:
+
+1-Look for ransom notes or messages left by ransomware on infected systems.
+
+2-Detect changes in file extensions that indicate encryption.
+
+3-Investigate user complaints about inaccessible or corrupted files.
+
+4-Monitor and block emails with potentially malicious attachments.
+
+5-Identify abnormal DNS queries that may indicate communication with command and control (C2) servers.
+
+6-Detect rapid changes in file names that may indicate mass encryption.
+
+7-Monitor for sudden increases in CPU usage on file servers, a potential sign of encryption activity.
+
+8-Identify and investigate unknown or suspicious executable files running on user systems.
+
+9-Look for unusual network connections originating from infected hosts.
+
+10-Monitor firewall logs for blocked attempts to access file-sharing services.
+
+11-Detect connections to known malicious IPs associated with ransomware.
+
+12-Review and respond to intrusion detection/prevention system alerts related to ransomware.
+
+13-Investigate alerts from antivirus and endpoint detection and response tools.
+
+14-Use threat intelligence feeds to correlate and validate alerts.
+
+
+====================================================================================================================
+
+Containment
+
+1-Use threat intelligence feeds to correlate and validate alerts.
+
+2-Apply appropriate countermeasures to mitigate the impact of the ransomware attack.
+
+3-Follow the OODA loop to make informed decisions quickly during the incident.Observe -> Orient -> Decide -> Act
+
+4-Identify and disconnect devices that are actively encrypting data.
+
+5-Disconnect affected file shares from the network to prevent further spread.
+
+6-Identify and eliminate the entry point used by the ransomware.
+
+7-Strengthen the security of unaffected file shares to prevent further attacks.
+
+8-Enhance protection measures for critical systems that have not been affected.
+
+9-Block external IPs and domains associated with the threat actors.
+
+10-Use EDR tools to find and stop malicious processes on infected machines.
+
+=======================================================================================================================
+
+Eradication:
+
+1-Ensure the initial entry point is permanently secured.
+
+2-Apply patches to fix any exploited vulnerabilities.
+
+3-Reinstall the operating system and applications on compromised devices.
+
+4-Check all systems for indicators of compromise related to the ransomware attack.
+
+5-Analyze user activity logs for suspicious actions linked to the attack.
+
+6-Verify that backups are clean before restoring systems.
+
+7-Update security tools with new threat signatures to detect and block future attacks.
+
+========================================================================================================================
+
+Recovery:
+
+1-Recover systems to the recovery point objective (RPO) within the recovery time objective (RTO).
+
+2-Use verified clean backups to restore affected systems.
+
+3-Repair any additional damage caused by the ransomware attack.
+
+==========================================================================================================================
+
+Lesson Learned:
+
+1-Continuously maintain and improve cybersecurity practices.
+
+2-Educate users to recognize and avoid phishing attempts.
+
+3-Train users to be cautious of unexpected attachments, even from known contacts.
+
+==========================================================================================================================
